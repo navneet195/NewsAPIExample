@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15400"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewsShimmer" customModule="NewsAPIExample" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="fDv-S9-4ab"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="1408"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w8s-qz-KxW" customClass="RoundRectView" customModule="NewsAPIExample" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="10" width="375" height="250"/>
+                    <color key="backgroundColor" red="0.85968625498007967" green="0.85968625498007967" blue="0.85968625498007967" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="fjy-6e-vQv"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gq0-op-rMi" customClass="RoundRectView" customModule="NewsAPIExample" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="330" width="375" height="250"/>
+                    <color key="backgroundColor" red="0.85968625499999995" green="0.85968625499999995" blue="0.85968625499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="5np-Vb-f3U"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c7V-gN-Fqy" customClass="RoundRectView" customModule="NewsAPIExample" customModuleProvider="target">
+                    <rect key="frame" x="8" y="268" width="359" height="20"/>
+                    <color key="backgroundColor" red="0.85968625499999995" green="0.85968625499999995" blue="0.85968625499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="0gL-SX-TOJ"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qtp-pP-kjc" customClass="RoundRectView" customModule="NewsAPIExample" customModuleProvider="target">
+                    <rect key="frame" x="8" y="296" width="317" height="20"/>
+                    <color key="backgroundColor" red="0.85968625499999995" green="0.85968625499999995" blue="0.85968625499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="wMF-0Q-Oij"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bu0-rd-4Cg" customClass="RoundRectView" customModule="NewsAPIExample" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="651" width="375" height="250"/>
+                    <color key="backgroundColor" red="0.85968625499999995" green="0.85968625499999995" blue="0.85968625499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="ufU-AP-Kfa"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hH8-cB-2ro" customClass="RoundRectView" customModule="NewsAPIExample" customModuleProvider="target">
+                    <rect key="frame" x="8" y="588" width="359" height="20"/>
+                    <color key="backgroundColor" red="0.85968625499999995" green="0.85968625499999995" blue="0.85968625499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="gne-Dy-J7c"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mJG-Zh-f9o" customClass="RoundRectView" customModule="NewsAPIExample" customModuleProvider="target">
+                    <rect key="frame" x="8" y="616" width="317" height="20"/>
+                    <color key="backgroundColor" red="0.85968625499999995" green="0.85968625499999995" blue="0.85968625499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="TGI-uq-G08"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pEP-Dr-lsM" customClass="RoundRectView" customModule="NewsAPIExample" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="972" width="375" height="250"/>
+                    <color key="backgroundColor" red="0.85968625499999995" green="0.85968625499999995" blue="0.85968625499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="Y4j-o1-oMF"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AD2-9G-KXX" customClass="RoundRectView" customModule="NewsAPIExample" customModuleProvider="target">
+                    <rect key="frame" x="8" y="909" width="359" height="20"/>
+                    <color key="backgroundColor" red="0.85968625499999995" green="0.85968625499999995" blue="0.85968625499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="R5Y-iN-lVw"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LYi-Ql-e9r" customClass="RoundRectView" customModule="NewsAPIExample" customModuleProvider="target">
+                    <rect key="frame" x="8" y="937" width="317" height="20"/>
+                    <color key="backgroundColor" red="0.85968625499999995" green="0.85968625499999995" blue="0.85968625499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="w0F-i8-rUe"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Qtp-pP-kjc" firstAttribute="top" secondItem="c7V-gN-Fqy" secondAttribute="bottom" constant="8" id="0oB-hS-0FH"/>
+                <constraint firstItem="gq0-op-rMi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="1qu-Gj-hnU"/>
+                <constraint firstAttribute="trailing" secondItem="bu0-rd-4Cg" secondAttribute="trailing" id="20y-kq-oCQ"/>
+                <constraint firstAttribute="trailing" secondItem="AD2-9G-KXX" secondAttribute="trailing" constant="8" id="3bS-Na-M6R"/>
+                <constraint firstAttribute="trailing" secondItem="Qtp-pP-kjc" secondAttribute="trailing" constant="50" id="3p5-TX-wMf"/>
+                <constraint firstAttribute="trailing" secondItem="pEP-Dr-lsM" secondAttribute="trailing" id="5JB-zt-xPg"/>
+                <constraint firstItem="pEP-Dr-lsM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7EQ-hr-WqL"/>
+                <constraint firstItem="w8s-qz-KxW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="C7F-rF-rVe"/>
+                <constraint firstItem="pEP-Dr-lsM" firstAttribute="top" secondItem="LYi-Ql-e9r" secondAttribute="bottom" constant="15" id="DUd-Ch-4Er"/>
+                <constraint firstItem="mJG-Zh-f9o" firstAttribute="top" secondItem="hH8-cB-2ro" secondAttribute="bottom" constant="8" id="Ect-ts-L4A"/>
+                <constraint firstItem="bu0-rd-4Cg" firstAttribute="top" secondItem="mJG-Zh-f9o" secondAttribute="bottom" constant="15" id="FAr-OS-D3T"/>
+                <constraint firstItem="hH8-cB-2ro" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="H11-P0-IoU"/>
+                <constraint firstAttribute="trailing" secondItem="c7V-gN-Fqy" secondAttribute="trailing" constant="8" id="Kov-Fz-Va0"/>
+                <constraint firstAttribute="trailing" secondItem="gq0-op-rMi" secondAttribute="trailing" id="Lcx-xW-Nmk"/>
+                <constraint firstItem="w8s-qz-KxW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Rtq-bq-GGZ"/>
+                <constraint firstItem="LYi-Ql-e9r" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="Sah-gd-7Mg"/>
+                <constraint firstItem="Qtp-pP-kjc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="WHc-7g-njD"/>
+                <constraint firstItem="LYi-Ql-e9r" firstAttribute="top" secondItem="AD2-9G-KXX" secondAttribute="bottom" constant="8" id="Z6G-YJ-DTO"/>
+                <constraint firstItem="AD2-9G-KXX" firstAttribute="top" secondItem="bu0-rd-4Cg" secondAttribute="bottom" constant="8" id="a7V-ok-SZn"/>
+                <constraint firstItem="c7V-gN-Fqy" firstAttribute="top" secondItem="w8s-qz-KxW" secondAttribute="bottom" constant="8" id="b9B-us-z7m"/>
+                <constraint firstItem="c7V-gN-Fqy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="ecp-CE-VMg"/>
+                <constraint firstAttribute="trailing" secondItem="mJG-Zh-f9o" secondAttribute="trailing" constant="50" id="gr2-46-avZ"/>
+                <constraint firstItem="AD2-9G-KXX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="hQd-lp-MJZ"/>
+                <constraint firstItem="mJG-Zh-f9o" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="lza-uH-axP"/>
+                <constraint firstAttribute="trailing" secondItem="w8s-qz-KxW" secondAttribute="trailing" id="qc0-Gl-gpz"/>
+                <constraint firstAttribute="trailing" secondItem="hH8-cB-2ro" secondAttribute="trailing" constant="8" id="tlV-hW-YJM"/>
+                <constraint firstItem="bu0-rd-4Cg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="uX7-WX-TnC"/>
+                <constraint firstItem="hH8-cB-2ro" firstAttribute="top" secondItem="gq0-op-rMi" secondAttribute="bottom" constant="8" id="ve4-dY-RGY"/>
+                <constraint firstItem="gq0-op-rMi" firstAttribute="top" secondItem="Qtp-pP-kjc" secondAttribute="bottom" constant="14" id="x3Z-GW-1oG"/>
+                <constraint firstAttribute="trailing" secondItem="LYi-Ql-e9r" secondAttribute="trailing" constant="50" id="ydk-h3-JVJ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="481" y="555"/>
+        </view>
+    </objects>
+</document>
